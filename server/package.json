@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "serve": "npm run serve",
-    "build": "npm run build",
     
-    "dev": "nodemon server"
+    
+    "server": "nodemon server"
   },
   "keywords": [],
   "author": "",
