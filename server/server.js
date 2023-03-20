@@ -1,9 +1,9 @@
 require("dotenv").config();
-const { createCompletionChatGTP } = require("./chatGTP");
+const { createCompletionChatGTP } = require("../chatGTP");
 const express = require("express");
 const cors = require("cors");
-const authRouter = require("./routers/auth");
-const chatRouter = require("./routers/chat");
+const authRouter = require("../routers/auth");
+const chatRouter = require("../routers/chat");
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 mongoose
